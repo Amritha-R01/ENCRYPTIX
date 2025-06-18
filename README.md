@@ -4,20 +4,39 @@ Internship Projects
 
 This repository contains three beginner-friendly Python scripts that demonstrate basic programming concepts like user input, randomization, and arithmetic operations.
 
-## 📁 Projects
+# 🎮 Rock, Paper, Scissors – `game_ex.py`
+A simple and interactive Rock, Paper, Scissors game built with Python. You play against the computer, and the program keeps track of scores through each round.
+## 📌 Features
+- Player vs Computer gameplay
+- Random computer choices using Python’s `random` module
+- Input validation to avoid invalid choices
+- Score tracking (player vs computer)
+- Option to play multiple rounds
+```bash
+python game_ex.py
 
-### 1. Game.py – Rock, Paper, Scissors  
-A terminal-based game where the user plays Rock, Paper, Scissors against the computer. The computer randomly chooses a move, and the winner is decided based on standard rules.
+# 🔐 Password Generator – `password_ex.py`
+A simple Python-based password generator that lets you create strong, random passwords based on your preferences.
+## ✨ Features
+- Choose desired password length
+- Option to include:
+  - Uppercase letters (A-Z)
+  - Lowercase letters (a-z)
+  - Digits (0-9)
+  - Symbols (e.g., ! @ # $ % ^ & *)
+- Allows regenerating passwords until satisfied
+- Input validation for character types and length
+```bash
+python password_ex.py
 
-### 2. Password.py – Password Generator  
-Generates a secure random password using letters, digits, and symbols. The user specifies the desired length, requirements and the script outputs a strong password.
+`calculator_ex.py` – 🧮 Simple Calculator
+A command-line calculator that supports:
 
-### 3. Calculator.py – Basic Calculator  
-A simple calculator that performs addition, subtraction, multiplication, division, and other operations. The user inputs two numbers and selects an operation.
-
-▶️ How to Run
-Make sure Python 3 is installed, then run any script using:
-python Game.py
-python Calculator.py
-python Password.py
+- Addition, Subtraction
+- Multiplication, Division
+- Modulus, Exponentiation
+- Floor Division
+- Absolute value and Square root
+```bash
+python calculator_ex.py
 
